@@ -1,0 +1,81 @@
+﻿@model IEnumerable<FilmTanitim.Models.Movie>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<br />
+<h2 style="text-align:center;" class="text-primary">Film Listesi</h2>
+<br />
+<div class="row">
+    <div class="col-md-1">
+    </div>
+    <div class="col-md-10">
+        <table id="myTable" class="table table-striped table-bordered">
+            <thead>
+                <tr>
+                    <th>
+                        Film Resmi
+                    </th>
+                    <th>
+                        Film Adı
+                    </th>
+                    <th>
+                        Film Açıklaması
+                    </th>
+                    <th>
+                        Film Kategorisi
+                    </th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>
+                            <img src="@item.MovieImage" style="height:40px;width:40px" class="card-img-top">
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.MovieName)
+                        </td>
+                        <td>
+                            @item.MovieDescription.Substring(0, 40)...
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Category.CategoryName)
+                        </td>
+                        <td>
+                            <div class="row">
+                                <div class="col-6">
+                                    <a class="btn btn-danger btn-block" asp-action="Delete" asp-route-id="@item.MovieId">Sil</a>
+                                </div>
+                                <div class="col-6">
+                                    <a class="btn btn-info btn-block" asp-action="Edit" asp-route-id="@item.MovieId">Güncelle</a>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+    <div class="col-md-1">
+    </div>
+</div><br />
+<p>
+    <a class="btn btn-primary btn-block" asp-area="Admin" asp-controller="Movies" asp-action="Create">Film Ekle</a>
+</p>
+@section Scripts{
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#myTable').DataTable({
+                "language": {
+                    "url": "//cdn.datatables.net/plug-ins/9dcbecd42ad/i18n/Turkish.json"
+                }
+            });
+        });
+    </script>
+}
+

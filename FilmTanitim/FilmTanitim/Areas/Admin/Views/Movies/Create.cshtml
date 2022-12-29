@@ -1,0 +1,48 @@
+﻿@model FilmTanitim.Models.Movie
+
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Film Ekle</h1>
+
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create" enctype="multipart/form-data" method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                Film Resmi
+                <input asp-for="MovieImage" type="file" class="form-control" />
+                <span asp-validation-for="MovieImage" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                Film Adı
+                <input asp-for="MovieName" class="form-control" />
+                <span asp-validation-for="MovieName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                Film Açıklaması
+                <input asp-for="MovieDescription" class="form-control" />
+                <span asp-validation-for="MovieDescription" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                Kategori
+                <select class="form-control form-check" asp-for="CategoryId" required>
+                    <option hidden disabled selected value="">
+                        Kategori Seçiniz..
+                    </option>
+                    @foreach (var item in ViewBag.Categories)
+                    {
+                        <option asp-for="CategoryId" value="@item.CategoryId" class="text-primary">@item.CategoryName</option>
+                    }
+                </select>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Ekle" class="btn btn-primary" /> |
+                <a asp-action="Index" class="btn btn-warning">Geri Dön</a>
+            </div>
+        </form>
+    </div>
+</div>

@@ -1,0 +1,12 @@
+﻿@model IEnumerable<FilmTanitim.Models.Category>
+<div class="list-group">
+    <a asp-action="Index" asp-controller="Home" class="list-group-item list-group-item-action active @(ViewBag.KategoriId==null?"active":"")" aria-current="true">
+        Tüm Filmler
+    </a>
+    @foreach (var item in Model)
+    {
+
+        <a asp-action="CategoryDetails" asp-controller="Home"  asp-route-id="@item.CategoryId" class="list-group-item list-group-item-action @(ViewBag.KategoriId?.ToString()==item.CategoryId.ToString()?"active":"")">@item.CategoryName</a>
+    }
+
+</div>  

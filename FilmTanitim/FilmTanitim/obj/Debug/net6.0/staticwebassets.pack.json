@@ -1,0 +1,205 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\smtun\\Desktop\\SELÇUK\\PC\\DİĞER PROJELER\\FilmTanitim\\FilmTanitim\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\smtun\\Desktop\\SELÇUK\\PC\\DİĞER PROJELER\\FilmTanitim\\FilmTanitim\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\smtun\\Desktop\\SELÇUK\\PC\\DİĞER PROJELER\\FilmTanitim\\FilmTanitim\\wwwroot\\images\\movie\\318362f6-f545-40d9-bbd8-6776d7bbb578.jpg",
+      "PackagePath": "staticwebassets\\images\\movie\\318362f6-f545-40d9-bbd8-6776d7bbb578.jpg"
+    },
+    {
+      "Id": "C:\\Users\\smtun\\Desktop\\SELÇUK\\PC\\DİĞER PROJELER\\FilmTanitim\\FilmTanitim\\wwwroot\\images\\movie\\32b88a3c-62c0-43a8-be46-e74f56c4205e.jpg",
+      "PackagePath": "staticwebassets\\images\\movie\\32b88a3c-62c0-43a8-be46-e74f56c4205e.jpg"
+    },
+    {
+      "Id": "C:\\Users\\smtun\\Desktop\\SELÇUK\\PC\\DİĞER PROJELER\\FilmTanitim\\FilmTanitim\\wwwroot\\images\\movie\\529ac693-5ce2-4500-a3f1-0ab94e494ea3.jpg",
+      "PackagePath": "staticwebassets\\images\\movie\\529ac693-5ce2-4500-a3f1-0ab94e494ea3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\smtun\\Desktop\\SELÇUK\\PC\\DİĞER PROJELER\\FilmTanitim\\FilmTanitim\\wwwroot\\images\\movie\\5f940930-6ae2-48f0-8192-bc33a6de2df2.jpg",
+      "PackagePath": "staticwebassets\\images\\movie\\5f940930-6ae2-48f0-8192-bc33a6de2df2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\smtun\\Desktop\\SELÇUK\\PC\\DİĞER PROJELER\\FilmTanitim\\FilmTanitim\\wwwroot\\images\\movie\\9b41c106-d79f-494d-92c9-e1bc6252f023.jpg",
+      "PackagePath": "staticwebassets\\images\\movie\\9b41c106-d79f-494d-92c9-e1bc6252f023.jpg"
+    },
+    {
+      "Id": "C:\\Users\\smtun\\Desktop\\SELÇUK\\PC\\DİĞER PROJELER\\FilmTanitim\\FilmTanitim\\wwwroot\\images\\movie\\a0443b01-80ad-494c-89fc-1b1f1aaf5fc0.mp4",
+      "PackagePath": "staticwebassets\\images\\movie\\a0443b01-80ad-494c-89fc-1b1f1aaf5fc0.mp4"
+    },
+    {
+      "Id": "C:\\Users\\smtun\\Desktop\\SELÇUK\\PC\\DİĞER PROJELER\\FilmTanitim\\FilmTanitim\\wwwroot\\images\\movie\\c87c0c3f-ade0-4fe1-a495-28d39bb1ed89.jpg",
+      "PackagePath": "staticwebassets\\images\\movie\\c87c0c3f-ade0-4fe1-a495-28d39bb1ed89.jpg"
+    },
+    {
+      "Id": "C:\\Users\\smtun\\Desktop\\SELÇUK\\PC\\DİĞER PROJELER\\FilmTanitim\\FilmTanitim\\wwwroot\\images\\movie\\ec40aa68-f3ad-492e-9945-8f6ec8f8ebcf.jpg",
+      "PackagePath": "staticwebassets\\images\\movie\\ec40aa68-f3ad-492e-9945-8f6ec8f8ebcf.jpg"
+    },
+    {
+      "Id": "C:\\Users\\smtun\\Desktop\\SELÇUK\\PC\\DİĞER PROJELER\\FilmTanitim\\FilmTanitim\\wwwroot\\jquery.min.js",
+      "PackagePath": "staticwebassets\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\smtun\\Desktop\\SELÇUK\\PC\\DİĞER PROJELER\\FilmTanitim\\FilmTanitim\\wwwroot\\jquery.rateyo.css",
+      "PackagePath": "staticwebassets\\jquery.rateyo.css"
+    },
+    {
+      "Id": "C:\\Users\\smtun\\Desktop\\SELÇUK\\PC\\DİĞER PROJELER\\FilmTanitim\\FilmTanitim\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\smtun\\Desktop\\SELÇUK\\PC\\DİĞER PROJELER\\FilmTanitim\\FilmTanitim\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\smtun\\Desktop\\SELÇUK\\PC\\DİĞER PROJELER\\FilmTanitim\\FilmTanitim\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\smtun\\Desktop\\SELÇUK\\PC\\DİĞER PROJELER\\FilmTanitim\\FilmTanitim\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\smtun\\Desktop\\SELÇUK\\PC\\DİĞER PROJELER\\FilmTanitim\\FilmTanitim\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\smtun\\Desktop\\SELÇUK\\PC\\DİĞER PROJELER\\FilmTanitim\\FilmTanitim\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\smtun\\Desktop\\SELÇUK\\PC\\DİĞER PROJELER\\FilmTanitim\\FilmTanitim\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\smtun\\Desktop\\SELÇUK\\PC\\DİĞER PROJELER\\FilmTanitim\\FilmTanitim\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\smtun\\Desktop\\SELÇUK\\PC\\DİĞER PROJELER\\FilmTanitim\\FilmTanitim\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\smtun\\Desktop\\SELÇUK\\PC\\DİĞER PROJELER\\FilmTanitim\\FilmTanitim\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\smtun\\Desktop\\SELÇUK\\PC\\DİĞER PROJELER\\FilmTanitim\\FilmTanitim\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\smtun\\Desktop\\SELÇUK\\PC\\DİĞER PROJELER\\FilmTanitim\\FilmTanitim\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\smtun\\Desktop\\SELÇUK\\PC\\DİĞER PROJELER\\FilmTanitim\\FilmTanitim\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\smtun\\Desktop\\SELÇUK\\PC\\DİĞER PROJELER\\FilmTanitim\\FilmTanitim\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\smtun\\Desktop\\SELÇUK\\PC\\DİĞER PROJELER\\FilmTanitim\\FilmTanitim\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\smtun\\Desktop\\SELÇUK\\PC\\DİĞER PROJELER\\FilmTanitim\\FilmTanitim\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\smtun\\Desktop\\SELÇUK\\PC\\DİĞER PROJELER\\FilmTanitim\\FilmTanitim\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\smtun\\Desktop\\SELÇUK\\PC\\DİĞER PROJELER\\FilmTanitim\\FilmTanitim\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\smtun\\Desktop\\SELÇUK\\PC\\DİĞER PROJELER\\FilmTanitim\\FilmTanitim\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\smtun\\Desktop\\SELÇUK\\PC\\DİĞER PROJELER\\FilmTanitim\\FilmTanitim\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\smtun\\Desktop\\SELÇUK\\PC\\DİĞER PROJELER\\FilmTanitim\\FilmTanitim\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\smtun\\Desktop\\SELÇUK\\PC\\DİĞER PROJELER\\FilmTanitim\\FilmTanitim\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\smtun\\Desktop\\SELÇUK\\PC\\DİĞER PROJELER\\FilmTanitim\\FilmTanitim\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\smtun\\Desktop\\SELÇUK\\PC\\DİĞER PROJELER\\FilmTanitim\\FilmTanitim\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\smtun\\Desktop\\SELÇUK\\PC\\DİĞER PROJELER\\FilmTanitim\\FilmTanitim\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\smtun\\Desktop\\SELÇUK\\PC\\DİĞER PROJELER\\FilmTanitim\\FilmTanitim\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\smtun\\Desktop\\SELÇUK\\PC\\DİĞER PROJELER\\FilmTanitim\\FilmTanitim\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\smtun\\Desktop\\SELÇUK\\PC\\DİĞER PROJELER\\FilmTanitim\\FilmTanitim\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\smtun\\Desktop\\SELÇUK\\PC\\DİĞER PROJELER\\FilmTanitim\\FilmTanitim\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\smtun\\Desktop\\SELÇUK\\PC\\DİĞER PROJELER\\FilmTanitim\\FilmTanitim\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\smtun\\Desktop\\SELÇUK\\PC\\DİĞER PROJELER\\FilmTanitim\\FilmTanitim\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\smtun\\Desktop\\SELÇUK\\PC\\DİĞER PROJELER\\FilmTanitim\\FilmTanitim\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\smtun\\Desktop\\SELÇUK\\PC\\DİĞER PROJELER\\FilmTanitim\\FilmTanitim\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\smtun\\Desktop\\SELÇUK\\PC\\DİĞER PROJELER\\FilmTanitim\\FilmTanitim\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.FilmTanitim.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.FilmTanitim.props",
+      "PackagePath": "build\\FilmTanitim.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.FilmTanitim.props",
+      "PackagePath": "buildMultiTargeting\\FilmTanitim.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.FilmTanitim.props",
+      "PackagePath": "buildTransitive\\FilmTanitim.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

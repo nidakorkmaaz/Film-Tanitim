@@ -1,0 +1,94 @@
+﻿@model FilmTanitim.Models.Movie
+
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<br />
+<h2 style="text-align:center;" class="text-primary">@Model.MovieName.ToUpper()</h2>
+<br />
+
+<div class="row">
+    <div style="text-align:center">
+        <img src="@Model.MovieImage" style="width:200px;height:300px;text-align:center">
+    </div>
+</div>
+<br />
+<div class="row">
+    @Html.DisplayFor(model => model.MovieDescription)
+</div>
+<br />
+<div class="row">
+    <div class="col-6">
+        <h5 class="text-success"><b>Kategori : </b>@Html.DisplayFor(model => model.Category.CategoryName)</h5>
+    </div>
+    <div class="col-6">
+        <div style="float:right" id="rateYo"></div>
+    </div>
+
+</div>
+<br />
+
+<br />
+<br />
+<br />
+<br />
+
+<h4 class="text-success" style="text-align:center;">YORUMLAR</h4>
+@foreach (var item in Model.Comment)
+{
+    <div class="col-12">
+       @item.Movie.MovieName | @item.CommentTitle  <div class="float-right text-warning">@(item.MovieRating/10)/5</div>
+    </div>
+    <div class="col-12">
+        @item.CommentDescription
+    </div>
+    <hr />
+    <br />
+
+}
+
+
+<form asp-area="Users" asp-controller="Comments" asp-action="Create" method="post" style="background-color:gainsboro;border-style:groove">
+    <input type="hidden" name="MovieId" value="@Model.MovieId" />
+    <div class="col-3">
+        <label for="exampleInputEmail1" class="form-label">Başlık</label>
+        <input type="text" class="form-control" name="CommentTitle" id="CommentTitle" aria-describedby="emailHelp">
+    </div>
+    <div class="col-12">
+        <label for="exampleInputPassword1" class="form-label">Yorum</label>
+        <textarea type="text" class="form-control" name="CommentDescription" style="height:100px" id="CommentDescription"></textarea>
+    </div><br />
+    <div class="col-5">
+        Puan Ver<br />
+        <div  id="rateYoz"></div>
+        <input type="hidden" name="MovieRating" id="rating" value="" class="form-control" />
+    </div>
+    <br />
+    <br />
+    <div class="col-2">
+        <button type="submit" class="btn btn-warning text-success">Yorum Ekle</button>
+    </div><br />
+</form>
+<br />
+<br />
+<script>
+    $(function () {
+
+        $("#rateYo").rateYo({
+            rating: "@ViewBag.TotalRate%",
+            readOnly: true
+        });
+    });
+
+    $(function () {
+
+        $("#rateYoz").rateYo({
+            onSet: function (rating, rateYoInstance) {
+                $('#rating').val(rating);
+            }
+        });
+    });
+
+</script>
