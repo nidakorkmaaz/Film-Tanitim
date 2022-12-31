@@ -13,4 +13,4 @@ Filmler hakkında tanıtım yapıp yorum yapılabilecek bir proje
 
 -Uygunsuz yorumlar için yorumlara admin müdahale edebilir.
 
--Üyeler silinebilir..
+-Üyeler silinebilir.
